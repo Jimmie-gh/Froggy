@@ -121,6 +121,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 38065851}
+  - component: {fileID: 38065852}
   m_Layer: 0
   m_Name: FruitSpawner
   m_TagString: Untagged
@@ -142,6 +143,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &38065852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38065850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1942cae21eec6724781e36610c8e04a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fruitsToSpawn:
+  - {fileID: 2999331060562503140, guid: be33b4922b60b4246998f494cc0833d0, type: 3}
+  - {fileID: 8622432893250495593, guid: 182ff09e43cd07b4cb0411002665bc78, type: 3}
+  - {fileID: 7474495587682101815, guid: ac3cabba431d80a4d8499ed9f4d86012, type: 3}
+  - {fileID: 359943576645528432, guid: aa524361592e71244815d52b776fbae3, type: 3}
+  - {fileID: 995578851536378962, guid: 1e1e053c5535b294faca9ce59ddbe05f, type: 3}
+  - {fileID: 8519232382022730628, guid: 03a6aa0db1993204e8555b3fd3765ad2, type: 3}
+  - {fileID: 836000176748552951, guid: 7724179ac07308c4e9eaebf2c8a449ef, type: 3}
+  - {fileID: 2796122329613612234, guid: c476d25c1e53b21439d4239d11d421f9, type: 3}
+  spawnPeriod: 1
 --- !u!1 &172877282
 GameObject:
   m_ObjectHideFlags: 0

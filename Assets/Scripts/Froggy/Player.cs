@@ -2,16 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : MonoBehaviour, IEater
 
 {
     public float speed = 3.14f;
     public float jumpForce = 1;
-    // Start is called before the first frame update
-    void Start()
+    
+    public void Eat(Fruit eatenFruit)
     {
-        
+        Debug.Log(eatenFruit.name + " was tasty!!!");
+        Destroy(eatenFruit.gameObject);
     }
+
 
     // Update is called once per frame
     void Update()
